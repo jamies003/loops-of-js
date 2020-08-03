@@ -12,10 +12,12 @@ for (let i = 0; i < gameBoard.length; i++) {
   // console.log(gameRows[i]);
   for (let j = 0; i < gameRows[i].length; i ++) {
 
-    totalScore += gameRows[j];
+    totalScore += gameRows[i][j];
 
-    console.log(totalScore);
-    // console.log(gameBoard[j]);
     // console.log(gameRows[j]);
   }
 }
+
+console.log(totalScore);
+console.log(gameBoard[i][j]);
+
